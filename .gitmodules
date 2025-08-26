@@ -1,0 +1,3 @@
+[submodule "info/Pre-training-Time-Series-Models"]
+	path = info/Pre-training-Time-Series-Models
+	url = git@github.com:astudentuser/Pre-training-Time-Series-Models-with-Stock-Data-Customization.git
