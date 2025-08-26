@@ -1,0 +1,587 @@
+{
+  "level_1": {
+    "801010": {
+      "id": 0,
+      "code": "801010",
+      "name": "农林牧渔",
+      "beta": 1.15,
+      "volatility": "高",
+      "cyclical": true,
+      "policy_sensitive": true,
+      "seasonal": true,
+      "description": "农业、林业、畜牧业、渔业等基础产业"
+    },
+    "801020": {
+      "id": 1,
+      "code": "801020",
+      "name": "采掘",
+      "beta": 1.25,
+      "volatility": "高",
+      "cyclical": true,
+      "policy_sensitive": false,
+      "seasonal": false,
+      "description": "煤炭开采、石油天然气开采、有色金属采选等"
+    },
+    "801030": {
+      "id": 2,
+      "code": "801030",
+      "name": "化工",
+      "beta": 1.18,
+      "volatility": "高",
+      "cyclical": true,
+      "policy_sensitive": true,
+      "seasonal": false,
+      "description": "基础化工、化学原料、化学制品等"
+    },
+    "801040": {
+      "id": 3,
+      "code": "801040",
+      "name": "钢铁",
+      "beta": 1.22,
+      "volatility": "高",
+      "cyclical": true,
+      "policy_sensitive": true,
+      "seasonal": false,
+      "description": "钢铁冶炼及压延加工业"
+    },
+    "801050": {
+      "id": 4,
+      "code": "801050",
+      "name": "有色金属",
+      "beta": 1.28,
+      "volatility": "高",
+      "cyclical": true,
+      "policy_sensitive": false,
+      "seasonal": false,
+      "description": "有色金属冶炼及压延加工业"
+    },
+    "801080": {
+      "id": 5,
+      "code": "801080",
+      "name": "电子",
+      "beta": 1.35,
+      "volatility": "高",
+      "cyclical": false,
+      "policy_sensitive": true,
+      "seasonal": false,
+      "description": "电子元器件、半导体、消费电子等"
+    },
+    "801110": {
+      "id": 6,
+      "code": "801110",
+      "name": "家用电器",
+      "beta": 1.12,
+      "volatility": "中",
+      "cyclical": true,
+      "policy_sensitive": false,
+      "seasonal": true,
+      "description": "白色家电、黑色家电、小家电等"
+    },
+    "801120": {
+      "id": 7,
+      "code": "801120",
+      "name": "食品饮料",
+      "beta": 0.85,
+      "volatility": "低",
+      "cyclical": false,
+      "policy_sensitive": false,
+      "seasonal": true,
+      "description": "食品加工、饮料制造、酒类等"
+    },
+    "801130": {
+      "id": 8,
+      "code": "801130",
+      "name": "纺织服装",
+      "beta": 1.08,
+      "volatility": "中",
+      "cyclical": true,
+      "policy_sensitive": false,
+      "seasonal": true,
+      "description": "纺织业、服装鞋帽制造等"
+    },
+    "801140": {
+      "id": 9,
+      "code": "801140",
+      "name": "轻工制造",
+      "beta": 1.05,
+      "volatility": "中",
+      "cyclical": true,
+      "policy_sensitive": false,
+      "seasonal": false,
+      "description": "造纸、包装、家具制造等"
+    },
+    "801150": {
+      "id": 10,
+      "code": "801150",
+      "name": "医药生物",
+      "beta": 0.92,
+      "volatility": "中",
+      "cyclical": false,
+      "policy_sensitive": true,
+      "seasonal": false,
+      "description": "医药制造、生物制品、医疗器械等"
+    },
+    "801160": {
+      "id": 11,
+      "code": "801160",
+      "name": "公用事业",
+      "beta": 0.75,
+      "volatility": "低",
+      "cyclical": false,
+      "policy_sensitive": true,
+      "seasonal": false,
+      "description": "电力、燃气、水务等公用事业"
+    },
+    "801170": {
+      "id": 12,
+      "code": "801170",
+      "name": "交通运输",
+      "beta": 1.18,
+      "volatility": "中",
+      "cyclical": true,
+      "policy_sensitive": true,
+      "seasonal": true,
+      "description": "航空、铁路、公路、水运等"
+    },
+    "801180": {
+      "id": 13,
+      "code": "801180",
+      "name": "房地产",
+      "beta": 1.32,
+      "volatility": "高",
+      "cyclical": true,
+      "policy_sensitive": true,
+      "seasonal": false,
+      "description": "房地产开发、物业管理等"
+    },
+    "801200": {
+      "id": 14,
+      "code": "801200",
+      "name": "商业贸易",
+      "beta": 1.08,
+      "volatility": "中",
+      "cyclical": true,
+      "policy_sensitive": false,
+      "seasonal": true,
+      "description": "零售、批发、贸易等"
+    },
+    "801210": {
+      "id": 15,
+      "code": "801210",
+      "name": "休闲服务",
+      "beta": 1.25,
+      "volatility": "高",
+      "cyclical": true,
+      "policy_sensitive": false,
+      "seasonal": true,
+      "description": "旅游、餐饮、娱乐等"
+    },
+    "801230": {
+      "id": 16,
+      "code": "801230",
+      "name": "综合",
+      "beta": 1.10,
+      "volatility": "中",
+      "cyclical": true,
+      "policy_sensitive": false,
+      "seasonal": false,
+      "description": "综合类企业"
+    },
+    "801710": {
+      "id": 17,
+      "code": "801710",
+      "name": "建筑材料",
+      "beta": 1.20,
+      "volatility": "高",
+      "cyclical": true,
+      "policy_sensitive": true,
+      "seasonal": false,
+      "description": "水泥、玻璃、建筑装饰材料等"
+    },
+    "801720": {
+      "id": 18,
+      "code": "801720",
+      "name": "建筑装饰",
+      "beta": 1.25,
+      "volatility": "高",
+      "cyclical": true,
+      "policy_sensitive": true,
+      "seasonal": false,
+      "description": "建筑施工、装饰装修等"
+    },
+    "801730": {
+      "id": 19,
+      "code": "801730",
+      "name": "电气设备",
+      "beta": 1.22,
+      "volatility": "中",
+      "cyclical": true,
+      "policy_sensitive": true,
+      "seasonal": false,
+      "description": "电力设备、新能源设备等"
+    },
+    "801740": {
+      "id": 20,
+      "code": "801740",
+      "name": "国防军工",
+      "beta": 1.15,
+      "volatility": "中",
+      "cyclical": false,
+      "policy_sensitive": true,
+      "seasonal": false,
+      "description": "军工装备、航空航天等"
+    },
+    "801750": {
+      "id": 21,
+      "code": "801750",
+      "name": "计算机",
+      "beta": 1.35,
+      "volatility": "高",
+      "cyclical": false,
+      "policy_sensitive": true,
+      "seasonal": false,
+      "description": "计算机设备、软件开发、IT服务等"
+    },
+    "801760": {
+      "id": 22,
+      "code": "801760",
+      "name": "传媒",
+      "beta": 1.28,
+      "volatility": "高",
+      "cyclical": false,
+      "policy_sensitive": true,
+      "seasonal": false,
+      "description": "广告营销、影视动漫、出版等"
+    },
+    "801770": {
+      "id": 23,
+      "code": "801770",
+      "name": "通信",
+      "beta": 1.18,
+      "volatility": "中",
+      "cyclical": false,
+      "policy_sensitive": true,
+      "seasonal": false,
+      "description": "通信设备、通信服务等"
+    },
+    "801780": {
+      "id": 24,
+      "code": "801780",
+      "name": "银行",
+      "beta": 1.15,
+      "volatility": "中",
+      "cyclical": true,
+      "policy_sensitive": true,
+      "seasonal": false,
+      "description": "国有银行、股份制银行、城商行等"
+    },
+    "801790": {
+      "id": 25,
+      "code": "801790",
+      "name": "非银金融",
+      "beta": 1.25,
+      "volatility": "高",
+      "cyclical": true,
+      "policy_sensitive": true,
+      "seasonal": false,
+      "description": "证券、保险、信托等"
+    },
+    "801880": {
+      "id": 26,
+      "code": "801880",
+      "name": "汽车",
+      "beta": 1.28,
+      "volatility": "高",
+      "cyclical": true,
+      "policy_sensitive": true,
+      "seasonal": false,
+      "description": "汽车整车、汽车零部件等"
+    },
+    "801890": {
+      "id": 27,
+      "code": "801890",
+      "name": "机械设备",
+      "beta": 1.20,
+      "volatility": "中",
+      "cyclical": true,
+      "policy_sensitive": false,
+      "seasonal": false,
+      "description": "通用设备、专用设备制造等"
+    }
+  },
+  "level_2": {
+    "801011": {
+      "id": 100,
+      "code": "801011",
+      "name": "种植业与林业",
+      "l1_code": "801010",
+      "characteristics": ["季节性强", "天气敏感", "政策导向"]
+    },
+    "801012": {
+      "id": 101,
+      "code": "801012",
+      "name": "畜牧业",
+      "l1_code": "801010",
+      "characteristics": ["周期性", "疫病风险", "饲料成本敏感"]
+    },
+    "801013": {
+      "id": 102,
+      "code": "801013",
+      "name": "渔业",
+      "l1_code": "801010",
+      "characteristics": ["季节性", "环境敏感", "资源依赖"]
+    },
+    "801021": {
+      "id": 103,
+      "code": "801021",
+      "name": "煤炭开采",
+      "l1_code": "801020",
+      "characteristics": ["资源型", "政策敏感", "环保压力"]
+    },
+    "801022": {
+      "id": 104,
+      "code": "801022",
+      "name": "石油开采",
+      "l1_code": "801020",
+      "characteristics": ["国际油价敏感", "资本密集", "技术密集"]
+    },
+    "801023": {
+      "id": 105,
+      "code": "801023",
+      "name": "其他采掘",
+      "l1_code": "801020",
+      "characteristics": ["资源依赖", "环境影响", "周期性"]
+    },
+    "801081": {
+      "id": 106,
+      "code": "801081",
+      "name": "半导体",
+      "l1_code": "801080",
+      "characteristics": ["技术密集", "资本密集", "全球竞争"]
+    },
+    "801082": {
+      "id": 107,
+      "code": "801082",
+      "name": "元件",
+      "l1_code": "801080",
+      "characteristics": ["制造业基础", "下游广泛", "技术升级"]
+    },
+    "801083": {
+      "id": 108,
+      "code": "801083",
+      "name": "消费电子",
+      "l1_code": "801080",
+      "characteristics": ["消费驱动", "创新周期", "品牌竞争"]
+    },
+    "801181": {
+      "id": 109,
+      "code": "801181",
+      "name": "房地产开发",
+      "l1_code": "801180",
+      "characteristics": ["政策敏感", "资金密集", "区域性"]
+    },
+    "801182": {
+      "id": 110,
+      "code": "801182",
+      "name": "园区开发",
+      "l1_code": "801180",
+      "characteristics": ["产业导向", "长期投资", "政府合作"]
+    },
+    "801751": {
+      "id": 111,
+      "code": "801751",
+      "name": "计算机设备",
+      "l1_code": "801750",
+      "characteristics": ["硬件制造", "技术迭代", "成本竞争"]
+    },
+    "801752": {
+      "id": 112,
+      "code": "801752",
+      "name": "软件开发",
+      "l1_code": "801750",
+      "characteristics": ["轻资产", "人才密集", "快速迭代"]
+    },
+    "801753": {
+      "id": 113,
+      "code": "801753",
+      "name": "IT服务",
+      "l1_code": "801750",
+      "characteristics": ["服务导向", "客户粘性", "规模效应"]
+    },
+    "801781": {
+      "id": 114,
+      "code": "801781",
+      "name": "银行II",
+      "l1_code": "801780",
+      "characteristics": ["利差收入", "风险管理", "监管严格"]
+    },
+    "801791": {
+      "id": 115,
+      "code": "801791",
+      "name": "证券",
+      "l1_code": "801790",
+      "characteristics": ["市场敏感", "佣金收入", "周期性强"]
+    },
+    "801792": {
+      "id": 116,
+      "code": "801792",
+      "name": "保险",
+      "l1_code": "801790",
+      "characteristics": ["长期负债", "投资收益", "精算管理"]
+    },
+    "801793": {
+      "id": 117,
+      "code": "801793",
+      "name": "多元金融",
+      "l1_code": "801790",
+      "characteristics": ["业务多元", "金融创新", "监管变化"]
+    }
+  },
+  "level_3": {
+    "80101101": {
+      "id": 1000,
+      "code": "80101101",
+      "name": "种子生产",
+      "l2_code": "801011",
+      "l1_code": "801010",
+      "market_characteristics": {
+        "concentration": "中等",
+        "barriers_to_entry": "技术壁垒",
+        "growth_stage": "成熟期"
+      }
+    },
+    "80101102": {
+      "id": 1001,
+      "code": "80101102",
+      "name": "经济作物",
+      "l2_code": "801011",
+      "l1_code": "801010",
+      "market_characteristics": {
+        "concentration": "分散",
+        "barriers_to_entry": "土地资源",
+        "growth_stage": "成熟期"
+      }
+    },
+    "80101201": {
+      "id": 1002,
+      "code": "80101201",
+      "name": "养殖业",
+      "l2_code": "801012",
+      "l1_code": "801010",
+      "market_characteristics": {
+        "concentration": "中等",
+        "barriers_to_entry": "规模经济",
+        "growth_stage": "成长期"
+      }
+    },
+    "80108101": {
+      "id": 1003,
+      "code": "80108101",
+      "name": "集成电路设计",
+      "l2_code": "801081",
+      "l1_code": "801080",
+      "market_characteristics": {
+        "concentration": "高度集中",
+        "barriers_to_entry": "极高技术壁垒",
+        "growth_stage": "快速成长期"
+      }
+    },
+    "80108102": {
+      "id": 1004,
+      "code": "80108102",
+      "name": "集成电路制造",
+      "l2_code": "801081",
+      "l1_code": "801080",
+      "market_characteristics": {
+        "concentration": "极高集中",
+        "barriers_to_entry": "资本和技术双重壁垒",
+        "growth_stage": "快速成长期"
+      }
+    },
+    "80108103": {
+      "id": 1005,
+      "code": "80108103",
+      "name": "集成电路封测",
+      "l2_code": "801081",
+      "l1_code": "801080",
+      "market_characteristics": {
+        "concentration": "中等集中",
+        "barriers_to_entry": "技术和规模",
+        "growth_stage": "成长期"
+      }
+    },
+    "80175101": {
+      "id": 1006,
+      "code": "80175101",
+      "name": "系统软件",
+      "l2_code": "801752",
+      "l1_code": "801750",
+      "market_characteristics": {
+        "concentration": "高度集中",
+        "barriers_to_entry": "技术和生态",
+        "growth_stage": "成熟期"
+      }
+    },
+    "80175102": {
+      "id": 1007,
+      "code": "80175102",
+      "name": "应用软件",
+      "l2_code": "801752",
+      "l1_code": "801750",
+      "market_characteristics": {
+        "concentration": "分散",
+        "barriers_to_entry": "创新能力",
+        "growth_stage": "快速成长期"
+      }
+    },
+    "80175103": {
+      "id": 1008,
+      "code": "80175103",
+      "name": "游戏",
+      "l2_code": "801752",
+      "l1_code": "801750",
+      "market_characteristics": {
+        "concentration": "中等集中",
+        "barriers_to_entry": "内容创新",
+        "growth_stage": "成长期"
+      }
+    }
+  },
+  "stock_mapping": {
+    "000001.SZ": {
+      "l1_code": "801780",
+      "l2_code": "801781",
+      "l3_code": "80175101"
+    },
+    "000002.SZ": {
+      "l1_code": "801180",
+      "l2_code": "801181",
+      "l3_code": "80101102"
+    },
+    "000858.SZ": {
+      "l1_code": "801080",
+      "l2_code": "801081",
+      "l3_code": "80108101"
+    },
+    "600000.SH": {
+      "l1_code": "801780",
+      "l2_code": "801781",
+      "l3_code": "80175101"
+    },
+    "600036.SH": {
+      "l1_code": "801780",
+      "l2_code": "801781",
+      "l3_code": "80175101"
+    },
+    "600519.SH": {
+      "l1_code": "801120",
+      "l2_code": "801121",
+      "l3_code": "80112101"
+    },
+    "000858.SZ": {
+      "l1_code": "801080",
+      "l2_code": "801081",
+      "l3_code": "80108101"
+    }
+  }
+}
